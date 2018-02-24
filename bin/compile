@@ -3,7 +3,7 @@
 
 set -e
 
-build_dir=$1
+build_dir=$1/client
 cache_dir=$2
 env_dir=$3
 bp_dir=$(dirname $(dirname $0))
